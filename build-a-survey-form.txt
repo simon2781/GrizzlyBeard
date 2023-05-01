@@ -1,0 +1,158 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+   <meta charset="UTF-8">
+   <title>Survey form</title>
+   <link rel="stylesheet" href="styles.css" />
+ </head>
+
+
+<h1 id="title"> This is my survey!
+  </h1>
+
+<p id="description"> This is a survey form </p>
+
+<form id="survey-form"> 
+
+<fieldset>
+  
+  <label id="name-label">Name: 
+         <input id="name" type="text" placeholder="Enter your name" required /></label>
+
+       <label id="email-label">Email: <input id="email" type="email" placeholder="whats your email?"required /></label>
+
+  <label id="number-label"> Age:     <input id="number" type="number" min="10" max="100" placeholder="how old are you?">
+
+</fieldset>
+<h3> Where are you from?</h3>
+
+<fieldset> 
+
+ <label> Where are you from?</label>
+
+
+<Select id="dropdown">
+     <option value="1">Bournemouth</option>
+     <option value="2">Kent</option>
+     <option value="3">London</option>
+   </select>
+
+   </fieldset>
+
+<h3> Would you stay or go away? </h3>
+
+   <fieldset>
+       
+       <label for="stay-home"><input id="stay-home" type="radio" name="stay-where"
+       value="1" /> Stay home</label>
+       <label for="go-away"><input id="go-away" type="radio" name="stay-where"
+       value="2" /> Go away?</label>
+
+  
+</fieldset>
+
+<h2> Tick all that you like </h2>
+<fieldset>
+  <label
+            ><input
+              name="prefer"
+              value="sandy-beach"
+              type="checkbox"
+              class="input-checkbox"
+            />Sandy Beach</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="pebblebeach"
+              type="checkbox"
+              class="input-checkbox"
+            />Pebble Beach</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="warmwater"
+              type="checkbox"
+              class="input-checkbox"
+            />Warm Water</label
+          >
+
+</fieldset>
+
+<fieldset>
+ <p>what else do you want to write?</p>
+
+
+          <textarea id="textarea"
+            class="input-textarea"
+            name="comment"
+            placeholder="type something here..."
+          ></textarea>
+</fieldset>
+
+<fieldset>
+
+<input id="submit"
+type="submit" value="Submit" />
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height:100vh;
+  font-family: Serif;
+    color: #995050;
+    background-color: #00ffff;
+    font-size: 1em;
+    text-align: center;}
+
+p {font-family: Tahoma;}
+
+form {display: block;
+width: 50vw;
+ max-width: 500px;
+ min-width: 300px;
+ margin: 0 auto;
+}
+
+fieldset {color: #3b3000;
+          display: block;
+          border: none;
+          padding: 1em;}
+
+
+
+
+
+
+
+
+
+
+
+
+** end of undefined **
+
